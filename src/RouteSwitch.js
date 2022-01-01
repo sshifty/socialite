@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import SignUp from './components/Auth/SignUp';
 import Login from './components/Auth/Login';
 import App from './components/Main/App';
@@ -6,7 +6,7 @@ import About from './components/Profile/About';
 import SocialPage from "./components/Main/SocialPage";
 import Settings from "./components/Profile/Settings";
 
-import {useState,useEffect} from 'react';
+import {useState} from 'react';
 import { uploadFiles,getAvatar } from "./firebase";
 import dummy from './images/dummy.png'
 
@@ -135,8 +135,7 @@ const RouteSwitch =props=>{
       
     
     return (
-        <BrowserRouter>
-            
+        <HashRouter>            
                 <Routes>
                                 
                     <Route path="/" element={<App
@@ -187,7 +186,7 @@ const RouteSwitch =props=>{
                 </Routes>
 
             
-        </BrowserRouter>
+        </HashRouter>
     );
 };
 

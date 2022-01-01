@@ -38,7 +38,7 @@ const Post = (props) => {
                   className="post-avatar"
                 />
               </div>
-              <p className="post-name" onClick={()=>navigate(`../${id}`)}>{name}</p>
+              <p className="post-name" onClick={()=>navigate(`../../${id}`)}>{name}</p>
               
               <p className="date">posted {date}</p>
             </div>
