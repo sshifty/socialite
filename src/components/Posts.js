@@ -1,6 +1,6 @@
 import { getAuth, onAuthStateChanged } from "firebase/auth";
-import { query } from "firebase/firestore";
 import { useState, useEffect } from "react";
+import { v4 as uuidv4 } from 'uuid';
 
 import Post from "./Post";
 const Posts = (props) => {
@@ -55,6 +55,7 @@ const Posts = (props) => {
       <div className="posts-container">
         {sortedPost.map((post) => (
           <Post
+            key={uuidv4()}
             name={post.name}
             id={post.id}
             post={post.post}
