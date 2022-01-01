@@ -1,0 +1,96 @@
+.form-page{
+    background:linear-gradient(350deg,#1e4a6b,#7bbed8) ;
+    width: 100vw;
+    height: 100vh;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+}
+.app-name{
+    transform:rotate(-4deg);
+    font-size: 2.5rem;
+    margin-top:1rem;
+    margin-bottom: 3rem;
+}
+
+.form-page input{
+    border-radius: 30px;
+    height:40px;
+    padding:.5rem;
+    font-weight: 550;
+    border:none;
+    outline:none;
+}
+
+
+
+.form-container{
+    width:500px;
+    
+    border:none;
+    border-radius: 30px;
+    box-shadow: rgba(16, 2, 20, 0.3) 0px 19px 38px, rgba(12, 1, 39, 0.22) 0px 15px 12px;
+    
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.input-wrapper{
+    flex:1;
+    width:80%;  
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.input-wrapper label{
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-left:0.5rem;
+    margin-bottom: 0.5rem;
+}
+input:invalid{
+    border:2px solid;
+    border-color: #900;
+    background-color: #FDD;
+  }
+
+.login{
+    justify-content: flex-start;
+}
+
+.login .input-wrapper{
+    flex:0;
+}
+
+.button-flex-container{
+    width:80%;
+    margin-top: auto;
+    display: flex;
+    gap:1rem;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.btn-div{
+    width: 100%;
+}
+.btn-signup,
+.btn-submit{
+    border:1px solid rgb(11, 8, 56) !important;
+    background-color:transparent !important; 
+    width: 100%;
+
+}
+.btn-signup:hover,
+.btn-submit:hover{
+    background-color:rgb(11, 8, 56) !important;
+    color:white;
+}
+.error{
+    margin:.1rem 0 0 .5rem;
+    color:rgb(128, 6, 6);
+    font-weight: 600;
+}
