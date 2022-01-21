@@ -3,7 +3,7 @@ import { initializeApp } from "firebase/app";
 import {useState,useEffect} from 'react';
 import {getDocs, query, getFirestore , collection, onSnapshot,doc,setDoc,updateDoc,arrayUnion, orderBy} from "firebase/firestore"
 import { getDownloadURL, getStorage, ref, uploadBytesResumable , uploadBytes} from "firebase/storage";
-
+import 'dotenv/config';
 
 import {getAuth,signInWithEmailAndPassword,createUserWithEmailAndPassword,onAuthStateChanged,signOut} from "firebase/auth";
 // TODO: Add SDKs for Firebase products that you want to use
@@ -11,13 +11,14 @@ import {getAuth,signInWithEmailAndPassword,createUserWithEmailAndPassword,onAuth
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCqwurAoUtTmnIn_PhuZrZ5Z_1Ih647Nc0",
+  apiKey: process.env.REACT_APP_FIRE_API,
   authDomain: "socialite-adbf5.firebaseapp.com",
   projectId: "socialite-adbf5",
   storageBucket: "socialite-adbf5.appspot.com",
   messagingSenderId: "17842913995",
-  appId: "1:17842913995:web:70a4c7963d399447b7d14e"
+  appId: process.env.REACT_APP_ID
 };
+
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const auth= getAuth();

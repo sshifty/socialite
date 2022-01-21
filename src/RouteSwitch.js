@@ -14,7 +14,6 @@ const RouteSwitch = (props) => {
   const [signInfo, setSignInfo] = useState({});
   const [postInfo, setPostInfo] = useState({});
   const [currentUser, setCurrentUser] = useState();
-
   const fillAvatar = (id, e) => {
     setSignInfo((prevState) => {
       let av = e.target.files[0];
