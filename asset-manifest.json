@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/socialite/static/css/main.2f95dc0e.chunk.css",
-    "main.js": "/socialite/static/js/main.1b4045cb.chunk.js",
-    "main.js.map": "/socialite/static/js/main.1b4045cb.chunk.js.map",
+    "main.js": "/socialite/static/js/main.471c2b39.chunk.js",
+    "main.js.map": "/socialite/static/js/main.471c2b39.chunk.js.map",
     "runtime-main.js": "/socialite/static/js/runtime-main.93a41670.js",
     "runtime-main.js.map": "/socialite/static/js/runtime-main.93a41670.js.map",
-    "static/js/2.5195e037.chunk.js": "/socialite/static/js/2.5195e037.chunk.js",
-    "static/js/2.5195e037.chunk.js.map": "/socialite/static/js/2.5195e037.chunk.js.map",
+    "static/js/2.ac2dda6d.chunk.js": "/socialite/static/js/2.ac2dda6d.chunk.js",
+    "static/js/2.ac2dda6d.chunk.js.map": "/socialite/static/js/2.ac2dda6d.chunk.js.map",
     "index.html": "/socialite/index.html",
     "static/css/main.2f95dc0e.chunk.css.map": "/socialite/static/css/main.2f95dc0e.chunk.css.map",
-    "static/js/2.5195e037.chunk.js.LICENSE.txt": "/socialite/static/js/2.5195e037.chunk.js.LICENSE.txt",
+    "static/js/2.ac2dda6d.chunk.js.LICENSE.txt": "/socialite/static/js/2.ac2dda6d.chunk.js.LICENSE.txt",
     "static/media/dummy.8973ad91.png": "/socialite/static/media/dummy.8973ad91.png"
   },
   "entrypoints": [
     "static/js/runtime-main.93a41670.js",
-    "static/js/2.5195e037.chunk.js",
+    "static/js/2.ac2dda6d.chunk.js",
     "static/css/main.2f95dc0e.chunk.css",
-    "static/js/main.1b4045cb.chunk.js"
+    "static/js/main.471c2b39.chunk.js"
   ]
 }
